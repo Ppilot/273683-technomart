@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Petr Patrushev](https://up.htmlacademy.ru/htmlcss/15/user/273683).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Коробейников](https://up.htmlacademy.ru/htmlcss/15/user/245335).
 
 ---
 
