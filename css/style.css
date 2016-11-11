@@ -1,0 +1,19 @@
+body {
+      font-family: "PT Sans", bold;
+      font-size: 18px;
+      line-height: 20px;
+      color: #000000;
+}
+.header-contact-shortinfo {
+      font-family: "Cuprum";
+      font-style: italic;
+      font-size: 16px;
+      line-height: 23px;
+      color: #ee3643;
+}
+.main-section-filtr-vendors {
+      font-family: "PT Sans", Regular;
+      font-size: 15px;
+      line-height: 20px;
+      color: #000000;
+}
