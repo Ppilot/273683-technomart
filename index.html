@@ -3,124 +3,139 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-        <div class="status-buy">
-            <div class="status-buy-logo">Техномарт</div>
-                <img class="main-header-icon" src="img/technomart_icon_find.png" width="17" height="17" alt="Поиск">
-            <div class="status-buy-main">
+    <header class="main-header clearfix">
+<!-- Первая линия header -->
+        <div class="status-buy clearfix">
+            <div class="status-buy-logo block-in">Техномарт</div>
+                <img class="main-header-icon block-in place1" src="img/technomart_icon_find.png" width="17" height="17" alt="Поиск">
+            <div class="status-buy-main block-in place2">
                 <a href="#">Поиск:</a>
             </div>
-                <img class="main-header-icon" src="img/technomart_icon_bookmark.png" width="14" height="16" alt="Закладки">
-            <div class="status-buy-main">
+                <img class="main-header-icon block-in place3" src="img/technomart_icon_bookmark.png" width="14" height="16" alt="Закладки">
+            <div class="status-buy-main block-in place4">
                 <a href="#">Закладки: 0</a>
             </div>
-                <img class="main-header-icon" src="img/technomart_icon_enter.png" width="20" height="17" alt="Корзина">
-            <div class="status-buy-main">
+                <img class="main-header-icon block-in place5" src="img/technomart_icon_basket.png" width="20" height="17" alt="Корзина">
+            <div class="status-buy-main block-in place6">
                 <a href="#">Корзина: 0</a>
             </div>
+            <div class="status-buy-main block-in place7">
+                <a href="#">Оформить заказ</a>
+            </div>
         </div>
-        <div class="header-contact">
-            <div>
-                <p>Интернет-магазин
-                   строительных материалов
+<!-- Вторая линия header -->
+        <div class="header-contact clearfix">
+            <div class="header-contact-info block-in" >
+                <p class="block-in">Интернет-магазин<br>
+                   строительных материалов<br>
                    и инструментов для ремонта</p>
             </div>
-        <div class="header-contact-button">
-            <div class="header-contact-phone">
-                <div>
-                    <figure class="main-header-icon">
-                        <img src="img/technomart_icon_tube.png" width="19" height="19" alt="icon-tube">
-                    </figure>
-                    <p>+7 (812) 555-05-55</p>
-                </div>
-              <div>
-                  <figure class="main-header-tube">
-                      <img src="img/technomart_icon_enter.png" width="20" height="17" alt="icon-enter">
-                  </figure>
-                  <p>Войти</p>
-              </div>
-              <div class="main-header-registration">
-                  <p>Регистрация</p>
-              </div>
-              <div class="main-header-address">
-                  <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-              </div>
-            </div>
+        <div class="header-contact-button block-in">
+                  <div class="header-contact-phone  block-in">
+                      <figure class="main-header-icon block-in">
+                          <img src="img/technomart_icon_tube.png" width="19" height="19" alt="icon-tube">
+                      </figure>
+                      <p class="block-in">+7 (812) 555-05-55</p>
+                  </div>
+
+                  <div class="main-header-tube block-in">
+                      <figure class="main-header-tube1 block-in">
+                          <img src="img/technomart_icon_enter.png" width="20" height="17" alt="icon-enter">
+                      </figure>
+                      <p class="block-in">Войти</p>
+                  </div>
+
+                  <div class="main-header-registration block-in">
+                      <p class="block-in">Регистрация</p>
+                  </div>
+
+                  <div class="main-header-address block-in">
+                      <p class="block-in">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                  </div>
         </div>
       </div>
-      <nav>
-          <ul>
-              <li>
+<!-- Третья линия header -->
+      <nav class="main-header-navigation clearfix">
+          <ul class="main-header-navigation-ul">
+              <li class="main-header-navigation-li">
                   <a href="#">Главная</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Комания</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Каталог</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Новости</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Спецпредложения</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Доставка</a>
               </li>
-              <li>
+              <li class="main-header-navigation-li">
                   <a href="#">Контакты</a>
               </li>
           </ul>
        </nav>
     </header>
-    <div class="main">
-        <div class="main-section">
-            <div class="main-section-material">
-                <div><h3>Материалы</h3></div>
-                <a class="btn" href="#">На любой вкус</a>
-            </div>
-            <div class="main-section-tool">
-                <h3>Инструмент</h3>
-                <figure class="tool">
+
+    <div class="main clearfix">
+        <div class="main-section clearfix">
+            <div class="main-section-material block-in">
+                <h3 class="block-in">Материалы</h3>
+                <figure class="tool block-in">
                     <img src="img/technomart_icon_big_basket.png" width="44" height="65" alt="tool">
                 </figure>
-                <h4>На все случаи</h4>
+                <a class="btn block-in" href="#">На любой вкус</a>
+
             </div>
-            <div class="main-section-technic">
-                <h3>Техника</h3>
-                <figure class="technic">
-                    <img src="img/technomart_icon_big_perforator.png" width="75" height="61" alt="technic">
+            <div class="main-section-tool block-in">
+                <h3 class="block-in">Инструмент</h3>
+                <figure class="tool block-in">
+                    <img src="img/technomart_icon_big_perforator.png" width="75" height="61" alt="tool">
                 </figure>
-                <h4>Для стройки</h4>
+                <a class="btn block-in" href="#">На все случаи</a>
             </div>
-            <div class="main-section-perforator">
-                <h2>Перфораторы</h2>
-                <div><h2>Настроящие мужские игрушки</h2></div>
-                <figure class="perforator">
-                    <img src="img/technomart_icon_big_tractor.png" width="78" height="62" alt="perforator">
+
+            <div class="main-section-technic block-in">
+                <h3 class="block-in">Техника</h3>
+                <figure class="technic block-in">
+                    <img src="img/technomart_icon_big_tractor.png" width="78" height="62" alt="technic">
                 </figure>
-                <h4>Открыть каталог</h4>
+                <a class="btn block-in" href="#">Для стройки</a>
             </div>
-            <div class="main-section-sale">
-                <h3>Скидки 50%</h3>
-                <figure class="sale">
+            <div class="main-section-perforator block-in">
+                <h2 class="block-in">Перфораторы</h2>
+                <h2 class="block-in">Настроящие мужские игрушки</h2>
+          <!--  <figure class="perforator block-in">
+                    <img src="img/technomart_slider_man.jpg" width="620" height="266" alt="perforator">
+          -->   </figure>
+                <a class="btn block-in" href="#">Открыть каталог</a>
+            </div>
+            <div class="main-section-sale block-in">
+                <h3 class="block-in">Скидки 50%</h3>
+                <figure class="sale block-in">
                     <img src="img/technomart_icon_big_basket2.png" width="59" height="72" alt="sale">
                 </figure>
-                <h4>На 350 товаров</h4>
+                <a class="btn block-in" href="#">На 350 товаров</a>
             </div>
-            <div class="main-section-transfer">
-                <h3>Доставка</h3>
-                <figure class="transfer">
+            <div class="main-section-transfer block-in">
+                <h3 class="block-in">Доставка</h3>
+                <figure class="transfer block-in">
                     <img src="img/technomart_icon_big_bus.png" width="78" height="63" alt="transfer">
                 </figure>
-                <div><h4>Бесплатно</h4></div>
+                <a class="btn block-in" href="#">Бесплатно</a>
             </div>
         </div>
-        <div class="main-products">
+
+        <div class="main-products block-in">
             <div class="main-products-title">
                 <p>Популярные товары</p>
                 <div><a class="main-products-title-all" href="#">Все популярные товары</a></div>

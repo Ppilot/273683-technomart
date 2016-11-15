@@ -3,6 +3,19 @@ body {
       font-size: 18px;
       line-height: 20px;
       color: #000000;
+      width: 960px;
+      padding: 0px;
+      margin: 0px;
+      background-color: gray;
+}
+.clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+figure, p {
+      margin: 0;
+      padding: 0;
 }
 .header-contact-shortinfo {
       font-family: "Cuprum";
@@ -16,4 +29,304 @@ body {
       font-size: 15px;
       line-height: 20px;
       color: #000000;
+}
+
+
+.block-in {
+      display: inline-block;
+}
+.status-buy {
+      background-color: #293449;
+      display: inline-block;
+      width: 960px;
+      height: 42px;
+}
+.header-contact {
+      background-color: #f1f5f7;
+      display: block;
+      width: 960px;
+      height: 158px;
+}
+.main-header-navigation {
+      background-image: url("img\technomart_logotype_big_LG.png") repeat;
+      background-color: #32425c;
+      display: inline-block;
+      width: 960px;
+      height: 60px;
+}
+.main-header-navigation-li {
+
+      outline: 1px dashed #cccccc;
+      float: left;
+      padding-right: 20px;
+      list-style-type: none;
+}
+.main-header-navigation-li a {
+      font-family: "Cuprum";
+      font-weight: Regular;
+      font-size: 17px;
+      line-height: 17px;
+      color:#ffffff;
+      text-decoration: none;
+      color:#ffffff;
+
+}
+.status-buy-logo {
+      font-family: "Cuprum";
+      font-weight: Regular;
+      font-size: 24px;
+      line-height: 24px;
+      color:#ffffff;
+      text-transform: uppercase;
+      float: left;
+      padding-top: 11px;
+      padding-left: 55px;
+      padding-right: 55px;
+      padding-bottom: 10px;
+      background-color: #ee3643;
+
+}
+.status-buy-main a{
+      color: #ffffff;
+      text-decoration: none;
+}
+.status-buy-main {
+      font-family: "Cuprum";
+      font-weight: Regular;
+      font-size: 17px;
+      line-height: 18px;
+      color:#ffffff;
+      float: right;
+}
+/*     Координаты объектов первого блока header    */
+.place1 {
+      padding-left: 11px;
+      padding-top: 11px;
+      padding-right: 15px;
+      float: left;
+
+
+}
+.place2 {
+      padding-right: 196px;
+      padding-top: 10px;
+      float: left;
+
+}
+.place3 {
+      padding-right: 10px;
+
+      margin-top: 11px;
+      float: left;
+
+}
+.place4 {
+      padding-right: 43px;
+      padding-top: 10px;
+      float: left;
+
+}
+.place5 {
+      padding-right: 16px;
+      padding-top: 10px;
+
+      float: left;
+
+
+}
+.place6 {
+      padding-right: 30px;
+      padding-top: 10px;
+      float: left;
+
+}
+.place7 {
+      background-color: #63a63e;
+
+      padding: 12px 28px 12px 28px;
+
+}
+.header-contact-info {
+      font-family: "Cuprum" Italic;
+      font-size: 16px;
+      line-height: 23px;
+      color:#ee3643;
+      display:inline-block;
+      width: 200px;
+      float: left;
+      width: 320px;
+      height: 153px;
+}
+.header-contact-info p{
+      padding-top: 20px;
+      padding-left: 52px;
+
+}
+.main {
+      display: block;
+      width: 960px;
+      height: 2534px;
+      margin: 0;
+      padding: 0;
+
+}
+
+.main-section {
+      outline: 1px dashed red;
+      width: 960px;
+      height: 520px;
+      padding-top: 58px;
+}
+.main-section-material {
+      background-color: #f6b22d;
+      width: 300px;
+      height: 123px;
+}
+.main-section-tool {
+      background-color: #4aafde;
+      width: 300px;
+      height: 123px;
+}
+.main-section-technic {
+      background-color: #cc79d1;
+      width: 300px;
+      height: 123px;
+}
+.main-section-perforator {
+      background-image: url("../img/technomart_slider_man.jpg");
+      width: 620px;
+      height: 266px;
+}
+.main-section-sale {
+      background-color: #85d179;
+      width: 300px;
+      height: 123px;
+}
+.main-section-transfer {
+      background-color: #f6b22d;
+      width: 300px;
+      height: 123px;
+}
+.header-contact-phone {
+      border: 3px solid #ffffff;
+      width: 269px;
+      height: 45px;
+      margin-top: 46px;
+      float: left;
+
+}
+.header-contact-phone .main-header-icon {
+      padding: 13px 0px 0px 12px;;
+      float: left;
+}
+.header-contact-phone p {
+      float: left;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 11px;
+      padding-left: 35px;
+      font-family: "Cuprum" Regular;
+      font-size: 21px;
+      line-height: 18px;
+      color:#e9292a;
+
+}
+.main-header-address p {
+      float: left;
+      margin: 0px;
+}
+.main-header-registration p {
+
+      font-family: "Cuprum" Regular;
+      font-size: 21px;
+      line-height: 18px;
+      color:#000000;
+      padding-top: 18px;
+      padding-left: 20px;
+}
+.main-header-registration {
+      float: right;
+      width: 150px;
+      height: 51px;
+      background-color: #ffffff;
+      margin-top: 46px;
+
+
+}
+.main-header-tube {
+      float: left;
+      background-color: #ffffff;
+      margin-top: 46px;
+      width: 120px;
+      height: 51px;
+      margin-left: 70px;
+}
+.main-header-tube .main-header-tube1 {
+      padding-top: 18px;
+      padding-left: 14px;
+}
+
+.main-header-tube p {
+      font-family: "Cuprum" Regular;
+      font-size: 21px;
+      line-height: 18px;
+      color:#000000;
+
+
+}
+.header-contact-button {
+      width: 640px;
+      height: 145px;
+      float: left;
+      padding-top: 10px;
+}
+.main-section h3 {
+      font-family: "Cuprum" Regular;
+      font-size: 17px;
+      line-height: 17px;
+      color:#ffffff;
+}
+.main-section a {
+      font-family: "Cuprum" Regular;
+      font-size: 14px;
+      line-height: 18px;
+      color: red;
+      text-decoration: none;
+      list-style-type: none;
+      width: 136px;
+      height: 40px;
+      outline: 1px solid blue;
+      border-radius: 3px;
+      text-align: center;
+}
+.main-section-materia {
+      float: left;
+}
+.main-section-tool {
+      float: left;
+}
+.main-section-technic {
+      float: right;
+}
+.main-section-perforator {
+      float: left;
+}
+.main-section-sale {
+      float: right;
+}
+.main-section-material h3 {
+      float: left;
+}
+.main-section-transfer {
+      float: right;
+}
+.main-section-material .tool {
+      float: right;
+      padding: 26px 42px 20px 50px;
+}
+.main-section-material .btn {
+      background-color: #dda028;
+      text-align: center;
+      float: left;
+      outline: 1px solid yellow;
 }
