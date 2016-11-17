@@ -577,13 +577,13 @@ figure, p {
       padding-bottom: 38px;
       height: 36px;
 }
-.main-shortinfo-btn {
+. {
       float: left;
       list-style-type: none;
       text-decoration: none;
       color: #ffffff;
       background-color: #ee3643;
-      width: 253px;
+      width: 220px;
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: center;
@@ -636,4 +636,135 @@ figure, p {
 .main-shortinfo-company-font1,
 .main-shortinfo-company-font2 {
       padding-bottom: 39px;
+}
+.main-footer {
+      float: left;
+      width: 940px;
+      height: 300px;
+      margin-top: 20px;
+}
+.main-footer-line1 {
+      background-color: #32425c;
+      float: left;
+      width: 940px;
+      height: 68px;
+}
+.main-footer-line2 {
+      background-color: #32425c;
+      float: left;
+      width: 940px;
+      height: 125px;
+}
+.main-footer-line3 {
+      background-color: #293449;
+      float: left;
+      width: 940px;
+      height: 107px;
+}
+.main-footer-line1 p {
+      font-weight: regilar;
+      font-family: "Cuprum";
+      font-size: 30px;
+      line-height: 70px;
+      color: #ffffff;
+      text-transform: uppercase;
+      float: left;
+      background-image: url("../img/technomart_background-main-footer-navigation.jpg");
+      background-repeat: repeat-x;
+      height: 68px;
+      width: 220px;
+      text-align: center;
+}
+.main-footer-line1 ul {
+      list-style-type: none;
+      float: right;
+}
+.main-footer-line1 li {
+      display: inline-block;
+      float: left;
+}
+.main-footer-line1 a {
+      list-style-type: none;
+      font-weight: regilar;
+      font-family: "Cuprum";
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+      text-decoration: none;
+      padding-left: 58px;
+}
+.main-footer-line2 p {
+      font-weight: regilar;
+      font-family: "Cuprum";
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+      float: left;
+      height: 127px;
+      width: 325px;
+      padding-top: 30px;
+
+}
+.main-footer-line2 ul {
+      list-style-type: none;
+      float: right;
+}
+.main-footer-line2 li {
+      display: inline-block;
+}
+.main-footer-line2 a {
+      font-family: "Cuprum";
+      font-weight: regilar;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffd180;
+      text-decoration: none;
+      padding-left: 53px;
+}
+.main-footer-line2 nav {
+      padding: 0;
+      margin: 0;
+}
+.main-footer-line3 .footer-copyright {
+      font-family: "Cuprum";
+      font-weight: regilar;
+      font-size: 16px;
+      line-height: 18px;
+      color: #ffffff;
+      float: left;
+      width: 390px;
+      height: 107px;
+      padding-top: 50px;
+}
+.main-footer-line3 .footer-social {
+      float: left;
+      width: 250px;
+      height: 107px;
+}
+.main-footer-line3 .footer-fitback {
+      float: left;
+      width: 188px;
+      height: 107px;
+}
+.main-footer-line3 .footer-developer {
+      float: left;
+      width: 110px;
+      height: 107px;
+}
+.main-footer-line3 .footer-fitback-white,
+.main-footer-line3 .footer-developer-white {
+  font-family: "Cuprum";
+  font-weight: regilar;
+  font-size: 16px;
+  line-height: 0px;
+  color: #ffffff;
+
+}
+.main-footer-line3 .footer-fitback-yellow,
+.main-footer-line3 .footer-developer-yellow {
+  font-family: "Cuprum";
+  font-weight: regilar;
+  font-size: 16px;
+  line-height: 0px;
+  color: #ffd180;
 }
