@@ -35,14 +35,13 @@ figure, p {
 }
 .status-buy {
       background-color: #293449;
-      background-image: url("../img/technomart_background_logo1_header.png");
-      display: inline-block;
+      background-image: url("../img/technomart_background_logo2_header.png");
+      
 }
 .header-contact {
       background-color: #f1f5f7;
       display: block;
-      width: 940px;
-      height: 158px;
+
 }
 .main-header-navigation {
       background-image: url("img\technomart_logotype_big_LG.png") repeat;
@@ -93,11 +92,12 @@ figure, p {
       line-height: 18px;
       color:#ffffff;
       float: right;
+      padding-top: 14px;
 }
 /*     Координаты объектов первого блока header    */
 .place1 {
       padding-left: 11px;
-      padding-top: 11px;
+      padding-top: 12px;
       padding-right: 15px;
       float: left;
 
@@ -105,36 +105,29 @@ figure, p {
 }
 .place2 {
       padding-right: 190px;
-      padding-top: 10px;
+      padding-top: 14px;
       float: left;
-
 }
 .place3 {
       padding-right: 10px;
-
-      margin-top: 11px;
+      margin-top: 12px;
       float: left;
-
 }
 .place4 {
       padding-right: 43px;
-      padding-top: 10px;
+      padding-top: 14px;
       float: left;
 
 }
 .place5 {
       padding-right: 16px;
-      padding-top: 10px;
-
+      padding-top: 14px;
       float: left;
-
-
 }
 .place6 {
       padding-right: 30px;
-      padding-top: 10px;
+      padding-top: 14px;
       float: left;
-
 }
 .place7 {
       background-color: #63a63e;
@@ -148,10 +141,11 @@ figure, p {
       line-height: 23px;
       color:#ee3643;
       display:inline-block;
-      width: 200px;
+      width: 249px;
       float: left;
       width: 320px;
       height: 153px;
+      outline: 1px dashed blue;
 }
 .header-contact-info p{
       padding-top: 20px;
@@ -208,7 +202,6 @@ figure, p {
       border: 3px solid #ffffff;
       width: 269px;
       height: 45px;
-      margin-top: 46px;
       float: left;
 
 }
@@ -253,10 +246,10 @@ figure, p {
 .main-header-tube {
       float: left;
       background-color: #ffffff;
-      margin-top: 46px;
+
       width: 120px;
       height: 51px;
-      margin-left: 70px;
+
 }
 .main-header-tube .main-header-tube1 {
       padding-top: 18px;
@@ -270,12 +263,13 @@ figure, p {
       color:#000000;
 
 
+
 }
 .header-contact-button {
-      width: 640px;
-      height: 145px;
       float: left;
       padding-top: 10px;
+      outline: 3px dashed red;
+      width: 600px;
 }
 .main-section h3 {
       font-family: "Cuprum" Regular;
