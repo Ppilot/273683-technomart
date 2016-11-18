@@ -30,16 +30,13 @@ figure, p {
       line-height: 20px;
       color: #000000;
 }
-
-
 .block-in {
       display: inline-block;
 }
 .status-buy {
       background-color: #293449;
+      background-image: url("../img/technomart_background_logo1_header.png");
       display: inline-block;
-      width: 940px;
-      height: 42px;
 }
 .header-contact {
       background-color: #f1f5f7;
@@ -82,7 +79,8 @@ figure, p {
       padding-right: 55px;
       padding-bottom: 10px;
       background-color: #ee3643;
-
+      background-image: url("../img/technomart_background_logo_header.png");
+      background-repeat: repeat-x;
 }
 .status-buy-main a{
       color: #ffffff;
@@ -106,7 +104,7 @@ figure, p {
 
 }
 .place2 {
-      padding-right: 196px;
+      padding-right: 190px;
       padding-top: 10px;
       float: left;
 
@@ -368,6 +366,28 @@ figure, p {
       border-radius: 2px;
       margin: 25px 22px 0 0;
 }
+.main-products-title .main-products-title-all:hover,
+.main-vendors-brands .main-products-title-all:hover {
+      float: right;
+      list-style-type: none;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: blue;
+      width: 253px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      font-weight: normal;
+      font-family: "Cuprum" Regular;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      border-radius: 2px;
+      margin: 25px 22px 0 0;
+}
+
+
+
 .main-products .font1,
 .main-products .font2 {
       font-weight: bold;
@@ -516,6 +536,7 @@ figure, p {
       height: 370px;
 }
 .main-shortinfo-company {
+      position: relative;
       float: left;
       width: 540px;
       height: 370px;
@@ -614,6 +635,26 @@ figure, p {
       text-transform: uppercase;
       border-radius: 2px;
       margin-top: 20px;
+}
+.main-shortinfo-btn {
+      position: absolute;
+      top: 327px;
+      right: 239px;
+      float:left;
+      list-style-type: none;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #ee3643;
+      width: 300px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      font-weight: normal;
+      font-family: "Cuprum" Regular;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      border-radius: 2px;
 }
 .main-shortinfo-company-font1,
 .main-shortinfo-company-font2 {
@@ -745,11 +786,13 @@ figure, p {
   color: #ffffff;
 
 }
+@base-color: red;
+
 .main-footer-line3 .footer-fitback-yellow,
 .main-footer-line3 .footer-developer-yellow {
   font-family: "Cuprum";
   font-weight: regilar;
   font-size: 16px;
   line-height: 0px;
-  color: #ffd180;
+  color: @base-color;
 }
