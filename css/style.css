@@ -136,20 +136,21 @@ figure, p {
 
 }
 .header-contact-info {
-      font-family: "Cuprum" Italic;
+      font-family: "Cuprum";
+      font-style: italic;
       font-size: 16px;
       line-height: 23px;
       color:#ee3643;
       display:inline-block;
       width: 249px;
       float: left;
-      width: 320px;
+      width: 315px;
       height: 153px;
       outline: 1px dashed blue;
 }
 .header-contact-info p{
-      padding-top: 20px;
-      padding-left: 52px;
+      padding-top: 40px;
+      padding-left: 47px;
 
 }
 .main {
@@ -203,8 +204,10 @@ figure, p {
       width: 269px;
       height: 45px;
       float: left;
-
+      margin-top: 26px;
+      margin-right: 69px;
 }
+.
 .header-contact-phone .main-header-icon {
       padding: 13px 0px 0px 12px;;
       float: left;
@@ -221,9 +224,17 @@ figure, p {
       color:#e9292a;
 
 }
+
 .main-header-address p {
       float: left;
-      margin: 0px;
+      padding-right: 200px;
+      font-family: "Cuprum";
+      font-size: 14px;
+      line-height: 24px;
+      color: #32425c;
+      padding-left: 10px;
+      padding-top: 2px;
+
 }
 .main-header-registration p {
 
@@ -239,17 +250,14 @@ figure, p {
       width: 150px;
       height: 51px;
       background-color: #ffffff;
-      margin-top: 46px;
-
-
+      margin-top: 26px;
 }
 .main-header-tube {
       float: left;
       background-color: #ffffff;
-
       width: 120px;
       height: 51px;
-
+      margin-top: 26px;
 }
 .main-header-tube .main-header-tube1 {
       padding-top: 18px;
@@ -261,15 +269,12 @@ figure, p {
       font-size: 21px;
       line-height: 18px;
       color:#000000;
-
-
-
 }
 .header-contact-button {
       float: left;
       padding-top: 10px;
-      outline: 3px dashed red;
-      width: 600px;
+      outline: 1px dashed black;
+      width: 625px;
 }
 .main-section h3 {
       font-family: "Cuprum" Regular;
